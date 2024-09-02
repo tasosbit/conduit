@@ -84,3 +84,7 @@ require (
 	golang.org/x/time v0.1.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
+
+replace github.com/algorand/go-algorand-sdk/v2 v2.6.0 => github.com/tasosbit/go-algorand-sdk/v2 v2.6.0-fnet
+
+replace github.com/algorand/indexer/v3 v3.5.0 => ../indexer
