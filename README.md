@@ -14,15 +14,51 @@
 
 Conduit is a framework for ingesting blocks from the Algorand blockchain into external applications. It is designed as modular plugin system that allows users to configure their own data pipelines for filtering, aggregation, and storage of blockchain data.
 
-<!-- TODO: a cool diagram here that clearly demonstrates data moving through the system -->
+# FNet build instructions
 
-For example, use conduit to:
-* Build a notification system for on chain events.
-* Power a next generation block explorer.
-* Select app specific data and write it to a custom database.
-* Build a custom Indexer for a new [ARC](https://github.com/algorandfoundation/ARCs).
-* Send blockchain data to another streaming data platform for additional processing (e.g. RabbitMQ, Kafka, ZeroMQ).
-* Build an NFT catalog based on different standards.
+This repo includes the modifications required for conduit/indexer to work with FNet. 
+
+To build an FNet conduit from source:
+
+1) Clone tasosbit/indexer tag v3.5.0-fnet
+
+```
+git clone git@github.com:tasosbit/indexer.git 
+
+cd indexer
+
+git checkout v3.5.0-fnet
+
+cd ..
+```
+
+2) Clone tasosbit/conduit tag v1.7.0-fnet
+
+```
+git clone git@github.com:tasosbit/conduit.git 
+
+cd conduit
+
+git checkout v1.7.0-fnet
+
+cd ..
+```
+
+3) Build conduit
+
+```
+cd conduit
+
+make conduit
+```
+
+Your binary can be found under `cmd/conduit/conduit`
+
+> [!TIP]
+> If you get any package-related errors in this step, try running `go mod tidy`
+
+> [!NOTE]
+> The conduit indexer module replacement relies on the conduit and indexer project directories belonging to the same directory. If this is unsuitable, edit go.mod to replace `../code/indexer` with the relative or absolute path of your local clone of indexer.
 
 # System Requirements
 
