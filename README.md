@@ -58,7 +58,7 @@ Your binary can be found under `cmd/conduit/conduit`
 > If you get any package-related errors in this step, try running `go mod tidy`
 
 > [!NOTE]
-> The conduit indexer module replacement relies on the conduit and indexer project directories belonging to the same directory. If this is unsuitable, edit go.mod to replace `../code/indexer` with the relative or absolute path of your local clone of indexer.
+> The conduit indexer module replacement relies on the conduit and indexer project directories belonging to the same directory. If this is unsuitable, edit go.mod to replace the relative path `../indexer` in the last line with the relative or absolute path of your local clone of indexer.
 
 # System Requirements
 
