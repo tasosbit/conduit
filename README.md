@@ -20,26 +20,26 @@ This repo includes the modifications required for conduit/indexer to work with F
 
 To build an FNet conduit from source:
 
-1) Clone tasosbit/indexer tag v3.5.0-fnet2
+1) Clone tasosbit/indexer tag v3.5.0-fnet3
 
 ```
 git clone git@github.com:tasosbit/indexer.git 
 
 cd indexer
 
-git checkout v3.5.0-fnet2
+git checkout v3.5.0-fnet3
 
 cd ..
 ```
 
-2) Clone tasosbit/conduit tag v1.7.0-fnet2
+2) Clone tasosbit/conduit tag v1.7.0-fnet3
 
 ```
 git clone git@github.com:tasosbit/conduit.git 
 
 cd conduit
 
-git checkout v1.7.0-fnet2
+git checkout v1.7.0-fnet3
 
 cd ..
 ```
