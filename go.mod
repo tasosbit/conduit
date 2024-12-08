@@ -85,6 +85,6 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/algorand/go-algorand-sdk/v2 v2.6.0 => github.com/tasosbit/go-algorand-sdk/v2 v2.6.0-fnet3
+replace github.com/algorand/go-algorand-sdk/v2 v2.6.0 => github.com/tasosbit/go-algorand-sdk/v2 v2.6.0-fnet4
 
 replace github.com/algorand/indexer/v3 v3.5.0 => ../indexer
