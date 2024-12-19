@@ -7,12 +7,8 @@ github.com/Microsoft/go-winio v0.5.2/go.mod h1:WpS1mjBmmwHBEWmogvA2mj8546UReBk4v
 github.com/RaveNoX/go-jsoncommentstrip v1.0.0/go.mod h1:78ihd09MekBnJnxpICcwzCMzGrKSKYe4AqU6PDYYpjk=
 github.com/algorand/avm-abi v0.2.0 h1:bkjsG+BOEcxUcnGSALLosmltE0JZdg+ZisXKx0UDX2k=
 github.com/algorand/avm-abi v0.2.0/go.mod h1:+CgwM46dithy850bpTeHh9MC99zpn2Snirb3QTl2O/g=
-github.com/algorand/go-algorand-sdk/v2 v2.2.1-0.20241114170414-874d2110dae4 h1:qQXdtMWlP9ynxeDEhWpUWer3AM51482pnfe7ptTDXm0=
-github.com/algorand/go-algorand-sdk/v2 v2.2.1-0.20241114170414-874d2110dae4/go.mod h1:BkHnK2PuCqzdGPNeWUo5yo6lRjyDZ9QoMN8GIjfijrA=
 github.com/algorand/go-codec/codec v1.1.10 h1:zmWYU1cp64jQVTOG8Tw8wa+k0VfwgXIPbnDfiVa+5QA=
 github.com/algorand/go-codec/codec v1.1.10/go.mod h1:YkEx5nmr/zuCeaDYOIhlDg92Lxju8tj2d2NrYqP7g7k=
-github.com/algorand/indexer/v3 v3.6.1-0.20241115001248-bff11e95ca04 h1:DJqpPmoyi5hmRz3HE7zse/a5xJXN2fpEjEDHXcGArdg=
-github.com/algorand/indexer/v3 v3.6.1-0.20241115001248-bff11e95ca04/go.mod h1:+bZIDBTjDjOjj8odzd0dbuOyyspbIKUPXS4Pw+IOfTA=
 github.com/algorand/oapi-codegen v1.12.0-algorand.0 h1:W9PvED+wAJc+9EeXPONnA+0zE9UhynEqoDs4OgAxKhk=
 github.com/algorand/oapi-codegen v1.12.0-algorand.0/go.mod h1:tIWJ9K/qrLDVDt5A1p82UmxZIEGxv2X+uoujdhEAL48=
 github.com/apapsch/go-jsonmerge/v2 v2.0.0 h1:axGnT1gRIfimI7gJifB699GoE/oq+F2MU7Dml6nw9rQ=
@@ -261,6 +257,8 @@ github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o
 github.com/stretchr/testify v1.8.2/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
+github.com/tasosbit/go-algorand-sdk/v2 v2.6.0-fnet5 h1:2zhkIy2QUeg5//T1EmoHYY6259ftIdqD/r1OHui4nwY=
+github.com/tasosbit/go-algorand-sdk/v2 v2.6.0-fnet5/go.mod h1:BkHnK2PuCqzdGPNeWUo5yo6lRjyDZ9QoMN8GIjfijrA=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasttemplate v1.2.2 h1:lxLXG0uE3Qnshl9QyaK6XJxMXlQZELvChBOCmQD0Loo=
